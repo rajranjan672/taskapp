@@ -1,0 +1,6 @@
+
+.active{
+    color:  rgb(224, 27, 109) !important;
+     /* border-bottom: 2px solid rgb(218, 34, 34) !important;   */
+    font-weight: 500 !important;
+  }

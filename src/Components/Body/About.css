@@ -1,0 +1,23 @@
+.scroll-container {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    white-space: nowrap; /* Prevent line breaks */
+    border: 1px solid #ddd; /* Optional: for visual reference */
+    padding: 10px; /* Optional: add some padding */
+  }
+  
+  .scroll-content {
+    display: inline-flex; /* Align children horizontally */
+  }
+  
+  .item {
+    min-width: 150px; /* Adjust the width of items */
+    height: 100px; /* Adjust the height of items */
+    margin-right: 10px; /* Space between items */
+    background-color: #f4f4f4; /* Background color */
+    border: 1px solid #ccc; /* Border for items */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  

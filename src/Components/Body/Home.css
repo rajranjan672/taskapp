@@ -1,0 +1,32 @@
+.image {
+    width: 100vw !important;
+    height: 350px !important;
+}
+
+.context {
+    width: fit-content;
+    display: flex;
+    gap: 20px;
+   
+}
+
+
+
+.context .card {
+    width: 300px !important;
+    height: fit-content !important;
+  z-index: 10 !important;
+    overflow-x: hidden !important;
+
+}
+
+.context .card:hover {
+    transform: scale(1.1);
+}
+
+
+.bt {
+    z-index: 1000 !important;
+    margin-top: 10px;
+    position: sticky !important;
+}
